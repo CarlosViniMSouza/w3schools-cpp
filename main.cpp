@@ -23,9 +23,12 @@ int main()
     // Examples for input data
     cout << "Your name, please: ";
     cin >> name;
-    cout << "Welcome to C++ World, " << name << endl;
 
     fflush;
+
+    cout << "Welcome to C++ World, " << name << endl;
+
+    // for(int i = 0; ... ;i++) -> check loop for print totaly the name.
 
     // Example for operations with datas inputed
     cout << "\nWrite first number: ";
@@ -55,6 +58,16 @@ int main()
 
     Therefore it is safer to use double for most calculations.
     */
+
+    /*
+    Scientific Numbers
+
+    -> A floating point number can also be a scientific number with an "e" to indicate the power of 10. Examples:
+    */
+
+    float numSci = 6.5E5;
+
+    cout << "\nMy number Scientific: " << numSci << endl;
 
     return 0;
 }
