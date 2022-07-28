@@ -36,10 +36,25 @@ int main()
     cout << "\nWrite second number: ";
     cin >> num2;
 
+    fflush;
+
     cout << "The sum is: " << (num1 + num2) << endl;
     cout << "The sub is: " << (num1 - num2) << endl;
     cout << "The product is: " << (num1 * num2) << endl;
     cout << "The division is: " << (num1 / num2) << endl;
+
+    // Obs.: In C++, use 'double' instead 'float' !!
+
+    /*
+    float vs. double
+
+    The precision of a floating point value indicates how many digits the value can have after the decimal point.
+
+    -> The precision of float is only 6 or 7 decimal digits;
+    -> While double variables have a precision of about 15 digits;
+
+    Therefore it is safer to use double for most calculations.
+    */
 
     return 0;
 }
