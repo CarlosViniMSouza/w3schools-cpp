@@ -1,5 +1,5 @@
 git add .
-git commit -m "part11Strings.cpp -> done"
+git commit -m "gitpod env. -> config. Done"
 git push -u origin main
 git status
 

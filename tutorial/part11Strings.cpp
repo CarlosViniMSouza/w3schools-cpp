@@ -5,8 +5,7 @@
 
 using namespace std;
 
-main()
-{
+int main() {
     string firstName = "Carlos ";
     string lastName = "Souza";
 

@@ -1,60 +1,58 @@
 {
-    "editor.fontSize": 18,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.wordWrap": "on",
-    "explorer.compactFolders": false,
-    "terminal.integrated.fontSize": 16,
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.tabSize": 4,
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
+  "editor.fontSize": 18,
+  "editor.fontFamily": "monospace",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 16,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "python.defaultInterpreterPath": "C:\\Users\\CarlosViniMSouza\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "git.confirmSync": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "python.defaultInterpreterPath": "C:\\Users\\CarlosViniMSouza\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
-    "extensions.ignoreRecommendations": true,
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
-    "git.confirmSync": false,
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-        "Git Bash": {
-            "source": "Git Bash"
-        }
-    },
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "window.zoomLevel": 1,
-    "remote.SSH.defaultExtensions": [
-        "gitpod.gitpod-remote-ssh"
-    ],
-    "remote.SSH.configFile": "C:\\Users\\CARLOS~1\\AppData\\Local\\Temp\\gitpod_ssh_config-52892-aVu7kBY8qO0N",
-    "remote.SSH.remotePlatform": {
-        "carlosvinimso-blogflask-a7atb86sh09": "linux"
-    },
-    "files.associations": {
-        "ostream": "cpp",
-        "iostream": "cpp"
+    "Git Bash": {
+      "source": "Git Bash"
     }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": 1,
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "remote.SSH.configFile": "C:\\Users\\CARLOS~1\\AppData\\Local\\Temp\\gitpod_ssh_config-52892-aVu7kBY8qO0N",
+  "remote.SSH.remotePlatform": {
+    "carlosvinimso-blogflask-a7atb86sh09": "linux"
+  },
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp"
+  }
 }
