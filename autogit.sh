@@ -1,5 +1,5 @@
 git add .
-git commit -m "gitpod env. -> config. Done"
+git commit -m "C++ Math Module -> get started -> Next Step: <cmath>"
 git push -u origin main
 git status
 
