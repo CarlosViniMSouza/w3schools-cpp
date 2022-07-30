@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 18,
-  "editor.fontFamily": "monospace",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "explorer.compactFolders": false,
@@ -46,7 +46,9 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "window.zoomLevel": 1,
-  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "remote.SSH.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ],
   "remote.SSH.configFile": "C:\\Users\\CARLOS~1\\AppData\\Local\\Temp\\gitpod_ssh_config-52892-aVu7kBY8qO0N",
   "remote.SSH.remotePlatform": {
     "carlosvinimso-blogflask-a7atb86sh09": "linux"
@@ -54,5 +56,6 @@
   "files.associations": {
     "ostream": "cpp",
     "iostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
