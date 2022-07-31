@@ -1,5 +1,5 @@
 git add .
-git commit -m "single arrays -> done"
+git commit -m "sorry, command wrong"
 git push -u origin main
 git status
 
