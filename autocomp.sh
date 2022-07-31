@@ -1,4 +1,4 @@
 cd tutorial                  # acess the directory
-g++ part19Arrays.cpp -o p19  # compilation command
-./p19                        # command to execute the file '.exe'
-rm p19                       # delete the file '.exe'
+g++ part20Struct.cpp -o p20  # compilation command
+./p20                        # command to execute the file '.exe'
+rm p20                       # delete the file '.exe'
