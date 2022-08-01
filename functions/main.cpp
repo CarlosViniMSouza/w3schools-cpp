@@ -32,28 +32,56 @@ void exchangeValues(int &x, int &y)
     // Now, 'x' and 'y' exchange yours values!
 }
 
+int funCalcBas(int num1, int num2)
+{
+    return round(num1 + num2 - (num1 * num2) / num1);
+}
+
+double funCalcBas(double num1, double num2)
+{
+    return num1 + num2 - (num1 * num2) / num1;
+}
+
 int main()
 {
-    int num01 = 10;
-    int num02 = 15;
+    /*
+       int num01 = 10;
+       int num02 = 15;
 
-    // cout << "\nCalling the funcToCalc():\n";
+       cout << "\nCalling the funcToCalc():\n";
 
-    // funcToCalc(126.85, 43.45);
+       funcToCalc(126.85, 43.45);
+    */
 
     /*
         You can also pass a reference to the function. This can be useful when you need to change the value of the arguments.
     */
 
-    cout << "\nNormally, we have:" << endl;
+    /*
+        cout << "\nNormally, we have:" << endl;
 
-    cout << num01 << " and " << num02 << endl;
+        cout << num01 << " and " << num02 << endl;
 
-    cout << "\nCalling the exchangeValues():\n";
+        cout << "\nCalling the exchangeValues():\n";
 
-    exchangeValues(num01, num02);
+        exchangeValues(num01, num02);
 
-    cout << num01 << " and " << num02 << endl;
+        cout << num01 << " and " << num02 << endl;
+    */
+
+    /*
+        Overloading a Function:
+
+        Instead of defining two functions that should do the same thing, it is better to overload one.
+    */
+
+    int vInt = funCalcBas(14, 4);
+
+    int vDouble = funCalcBas(15.5, 3.5);
+
+    cout << "Result in version int: " << vInt << "\n";
+
+    cout << "Result in version double: " << vDouble << "\n";
 
     return 0;
 }
