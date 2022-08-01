@@ -21,7 +21,7 @@
   "python.defaultInterpreterPath": "C:\\Users\\CarlosViniMSouza\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
   "extensions.ignoreRecommendations": true,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "GitHub Dark",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
