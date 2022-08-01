@@ -1,4 +1,4 @@
-cd tutorial
-g++ part22Pointers.cpp -o p22
-./p22
-rm p22
+cd functions
+g++ main.cpp -o main
+./main
+rm main
