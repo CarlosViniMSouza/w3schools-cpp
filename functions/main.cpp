@@ -42,6 +42,28 @@ double funCalcBas(double num1, double num2)
     return num1 + num2 - (num1 * num2) / num1;
 }
 
+int factorial(int num)
+{
+    while (num > 0)
+    {
+        return num * factorial(num - 1);
+    }
+
+    return 0;
+}
+
+int sum(int k)
+{
+    if (k > 0)
+    {
+        return k + sum(k - 1);
+    }
+    else
+    {
+        return 0;
+    }
+}
+
 int main()
 {
     /*
@@ -75,13 +97,27 @@ int main()
         Instead of defining two functions that should do the same thing, it is better to overload one.
     */
 
-    int vInt = funCalcBas(14, 4);
+    /*
+        int vInt = funCalcBas(14, 4);
 
-    int vDouble = funCalcBas(15.5, 3.5);
+        int vDouble = funCalcBas(15.5, 3.5);
 
-    cout << "Result in version int: " << vInt << "\n";
+        cout << "Result in version int: " << vInt << "\n";
 
-    cout << "Result in version double: " << vDouble << "\n";
+        cout << "Result in version double: " << vDouble << "\n";
+    */
+
+    /*
+        And finally, recursion in function!
+
+        Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+
+        Recursion may be a bit difficult to understand. The best way to figure out how it works is to experiment with it.
+    */
+
+    cout << "The factorial of 5: " << factorial(5) << endl;
+
+    cout << "The sum is: " << sum(12) << endl;
 
     return 0;
 }
