@@ -37,21 +37,11 @@ int main()
     cin >> stu.age;
 
     fflush;
-    /*
+
     for(int i = 1; i < 4; i++) {
-        cout << "\nEnter with note num." << i << " : ";
+        cout << "\nEnter with note" << i << " : ";
         cin >> notes[i];
     }
-    */
-
-    cout << "\nEnter with note 1: ";
-    cin >> notes[1];
-
-    cout << "\nEnter with note 2: ";
-    cin >> notes[2];
-
-    cout << "\nEnter with note 3: ";
-    cin >> notes[3]; 
 
     stu.note = (notes[1] + notes[2] + notes[3])/3;
 
