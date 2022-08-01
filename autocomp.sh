@@ -1,4 +1,4 @@
-cd tutorial                  # acess the directory
-g++ part21Ref.cpp -o p21     # compilation command
-./p21                        # command to execute the file '.exe'
-rm p21                       # delete the file '.exe'
+cd tutorial
+g++ part22Pointers.cpp -o p22
+./p22
+rm p22
