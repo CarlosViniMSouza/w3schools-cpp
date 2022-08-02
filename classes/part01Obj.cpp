@@ -6,8 +6,8 @@ class Student
 {
 public:
     string name;
-    int age;
     float note;
+    int age;
 
     void message() {
         cout << "\nTest Method -> Success" << endl;
