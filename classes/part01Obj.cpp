@@ -9,9 +9,33 @@ public:
     int age;
     float note;
 
-private:
-    int code;
+    void message() {
+        cout << "\nTest Method -> Success" << endl;
+    }
+
+    void calcNotes();
+
+    void condResult();
 };
+
+void Student::calcNotes() {
+    float notes[3];
+
+    for(int i = 1; i < 4; i++) {
+        cout << "\nEnter with note " << i << " : ";
+        cin >> notes[i];
+    }
+
+    note = (notes[1] + notes[2] + notes[3])/3;
+}
+
+void Student::condResult() {
+    if(note <= 6.0) {
+        cout << "Status: Disapproved" << endl;
+    } else {
+        cout << "Status: Approved" << endl;
+    }
+}
 
 int main()
 {
@@ -22,8 +46,6 @@ int main()
 
     A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
     */
-
-    double notes[3];
 
     // Declaring a object-class:
     Student stu;
@@ -38,12 +60,7 @@ int main()
 
     fflush;
 
-    for(int i = 1; i < 4; i++) {
-        cout << "\nEnter with note" << i << " : ";
-        cin >> notes[i];
-    }
-
-    stu.note = (notes[1] + notes[2] + notes[3])/3;
+    stu.calcNotes();
 
     fflush;
 
@@ -52,11 +69,7 @@ int main()
     cout << "Age: " << stu.age << endl;
     cout << "Note Exam: " << stu.note << endl;
     
-    if(stu.note <= 6.0) {
-        cout << "Status: Disapproved" << endl;
-    } else {
-        cout << "Status: Approved" << endl;
-    }
+    stu.condResult();
 
     return 0;
 }
