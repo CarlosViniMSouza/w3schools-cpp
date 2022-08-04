@@ -1,4 +1,4 @@
 cd classes
-g++ part05Encap.cpp -o p05
-./p05
-rm p05
+g++ part06Poly.cpp -o p06
+./p06
+rm p06
