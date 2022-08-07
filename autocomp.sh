@@ -1,4 +1,4 @@
 cd classes
-g++ part06Poly.cpp -o p06
-./p06
-rm p06
+g++ part07Excep.cpp -o p07
+./p07
+rm p07
